@@ -1,4 +1,64 @@
 
-p{
-    color: lightgreen;
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e6f2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-card {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #b0c4de;
+}
+
+h1 {
+    color: #2563eb;
+}
+
+.city {
+    color: gray;
+}
+
+.icon {
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 45px;
+    margin: 10px;
+}
+
+.condition {
+    color: #555;
+}
+
+.details {
+    background: #f0f6ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #2563eb;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    background: #f0f6ff;
+    border-radius: 10px;
+}
+
+.forecast span {
+    font-size: 25px;
 }
